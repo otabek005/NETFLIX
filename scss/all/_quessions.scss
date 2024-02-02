@@ -1,0 +1,86 @@
+.quession-wrapper{
+    h2{
+        margin-top: 40px;
+        text-align: center;
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 50px;
+        color: #fff;
+        margin-bottom: 65px;
+    }
+
+    .quession1{
+        margin-bottom: 20px;
+        div:first-child{
+            padding: 15px 30px;
+            background: #696969;
+            color: #fff;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p{
+                font-family: var(--font-family);
+                font-weight: 800;
+                font-size: 30px;
+                color: #fff;
+            }
+
+            button{
+                cursor: pointer;
+                border: none;
+                background: transparent;
+            }
+        }
+    }
+
+    h4{
+        margin-top: 70px;
+        margin-bottom: 50px;
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 30px;
+        color: #fff;
+        backdrop-filter: blur(4px);
+        text-align: center
+    }
+
+
+    form{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 130px;
+
+        label{
+            input{
+                border: 1px solid #12864e;
+                border-radius: 4px;
+                width: 392px;
+                height: 48px;
+                padding: 0 15px;
+                border: none;
+                background: #6a6868;
+                color: white;
+            }
+        }
+
+        button{
+            border: 1px solid rgba(0, 0, 0, 0);
+            border-radius: 4px;
+            width: 162px;
+            height: 48px;
+            background: #e50914;
+            color: white;
+            font-family: var(--font-family);
+            font-weight: 800;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    }
+}
+
+#quession{
+    border-bottom: 10px solid rgba(255, 255, 255, 0.504);
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="./css/style.min.css">
+    <!-- LINK LOGO SITE -->
+    <link rel="icon" href="./images/Netflix_icon.svg.png">
+    <!-- LINK BOX ICON -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body style="position: relative; overflow: hidden; ">
+    <!-- HEADER section start -->
+    <header>
+        <nav class="container" style="background-image: url(./images/singin.png);">
+            <div class="header_wrapper">
+                <img src="./images/NETFLIX_logo.png" alt="" style="z-index: 10;">
+        </nav>
+    </header>
+
+    <main style="position: relative;">
+        <section id="singin">
+            <div class="container">
+                <div class="singin">
+                    <h2>Sign In</h2>
+                    <form action="">
+                        <label for="email">
+                            <p>Email or Phone Number</p>
+                            <input type="email" placeholder="Enter your Email or Phone Number" required>
+                        </label>
+                        <label for="password">
+                            <p>Password</p>
+                            <input type="password" placeholder="Enter your password" required id="sing_pasword">
+                        </label>
+                        <button type="submit">Sign In</button>
+                        <span id="show"><i class='bx bx-show'></i></span>
+                    </form>
+
+                    <div class="checkbox">
+                       <div>
+                        <input type="checkbox">
+                        <p>Remember me</p>
+                       </div>
+                       <a href="#">Need help?</a>
+                    </div>
+
+                    <p><span>New to Netflix?.</span> <span> Sign up now</span></p>
+                    <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="position: absolute; bottom: -80px; background: #000000d8; left: 0; width: 100%;">
+        <div class="container">
+            <p style="margin-bottom: 20px; margin-top: 20px; color: #6a6868;">Questions? Call 000-800-919-1694</p>
+            <div class="foter-wraper">
+                <ul>
+                    <li><a href="#" style="color: #6a6868;">FAQ</a></li>
+                    <li><a href="#" style="color: #6a6868;">Investor Relations</a></li>         
+                </ul>
+                <ul>
+                    <li><a href="#" style="color: #6a6868;">Help Centre</a></li>
+                    <li><a href="#" style="color: #6a6868;">Jobs</a></li>            
+                </ul>
+                <ul>
+                    <li><a href="#" style="color: #6a6868;">Account</a></li>
+                    <li><a href="#" style="color: #6a6868;">Ways to Watch</a></li>          
+                </ul>
+                <ul>
+                    <li><a href="#" style="color: #6a6868;">Media Centre</a></li>
+                    <li><a href="#" style="color: #6a6868;">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="foter-language" style="border: 1px solid #6a6868;">
+                <img src="./images/language_logo.svg" alt="" class="language_logo">
+                <select id="langauge" style="color: #6a6868;">
+                    <option value="EN">ENLISH</option>
+                    <option value="UZ">UZBEK</option>
+                    <option value="RU">RUSSIA</option>
+                </select>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER section end -->
+
+    <!-- LINK JS -->
+    <script src="./main.js"></script>
+</body>
+</html>

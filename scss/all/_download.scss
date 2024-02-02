@@ -1,0 +1,27 @@
+.download-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 708px;
+    .download-right{
+        width: 601px;
+        h3{
+            font-family: var(--font-family);
+            font-weight: 800;
+            font-size: 50px;
+            color: #fff;
+            margin-bottom: 12px;
+        }
+        
+        p{
+            font-family: var(--font-family);
+            font-weight: 800;
+            font-size: 25px;
+            color: #fff;
+        }
+    }
+}
+
+#download{
+    border-bottom: 10px solid rgba(255, 255, 255, 0.504);
+}
