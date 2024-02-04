@@ -1,0 +1,41 @@
+#header{
+    height: 200px;
+    padding: 35px;
+    nav{
+        .home-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .home-head-left{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                ul{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    li{
+                        a{
+                            font-family: var(--font-family);
+                            font-weight: 800;
+                            font-size: 18px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+
+            .home-head-right{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                img{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

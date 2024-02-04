@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="./css/style.min.css">
+    <!-- LINK LOGO SITE -->
+    <link rel="icon" href="./images/Netflix_icon.svg.png">
+    <!-- LINK BOX ICON -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- HEADER section start -->
+    <header id="header">
+        <nav class="container" style="background-image: none;">
+            <div class="home-header">
+                <div class="home-head-left">
+                    <img src="./images/NETFLIX_logo.png" alt="NETFLIX">
+                    <ul>
+                        <li><a href="./home.html">Home</a></li>
+                        <li><a href="#">TV  Shows</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">New & Popular</a></li>
+                        <li><a href="#">MyList</a></li>
+                        <li><a href="#">Browse by Languages</a></li>
+                    </ul>
+                </div>
+                <div class="home-head-right">
+                    <img src="./images/Doorbell.svg" alt="img">
+                    <img src="./images/user-img.png" alt="img">
+                    <img src="./images/user-vektor.svg" alt="img">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- HEADER section end -->
+    <!-- Main section start -->
+    <main>
+        <section id="movie"> 
+
+        </section>
+
+        <section id="listkino">
+            <div class="container">
+                <div class="kinolist-wrapper">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="addvideo">
+            <div class="container">
+                <h1>Your movies -></h1>
+                <div id="yourvideos">
+
+                </div>
+                <div>
+                    <button id="addclick">ADD VIDEOS</button>
+                    <button id="removeclick">REMOVE VIDEOS</button>
+                </div>
+                <form action="" id="formaddmovie">
+                    <label for="name">
+                        <input type="text" placeholder="Enter name in your movie" id="namem" required>
+                    </label>
+                    <label for="link">
+                        <input type="text" placeholder="Enter link in your movie" id="linkm" required>
+                    </label>
+                    <button type="submit" id="addsumbit">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Main section end -->
+    <!-- FOOTER section start -->
+    <footer>
+        <div class="container">
+            <p>Questions? Call 000-800-919-1694</p>
+            <div class="foter-wraper">
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Speed Test</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Help Centre</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Cookie Preferences</a></li>
+                    <li><a href="#">Legal Notices</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Ways to Watch</a></li>
+                    <li><a href="#">Corporate Information</a></li>
+                    <li><a href="#">Only on Netflix</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Media Centre</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Contact US</a></li>
+                </ul>
+            </div>
+            <div class="foter-language">
+                <img src="./images/language_logo.svg" alt="" class="language_logo">
+                <select id="langauge">
+                    <option value="EN">ENLISH</option>
+                    <option value="UZ">UZBEK</option>
+                    <option value="RU">RUSSIA</option>
+                </select>
+            </div>
+
+            <span>Netflix UZB</span>
+        </div>
+    </footer>
+    <!-- FOOTER section end -->
+
+    <!-- LINK JS -->
+    <script src="./kinolist.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

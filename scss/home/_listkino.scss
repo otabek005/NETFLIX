@@ -1,0 +1,32 @@
+#listkino{
+    .container{
+        .kinolist-wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+
+            .card-kino{
+                width: 340px;
+                height: 222px;
+                color: white;
+                position: relative;
+                margin-bottom: 35px;
+
+                img{
+                    width: 340px;
+                    height: 192px;
+                    object-fit: cover;
+                    cursor: pointer;
+                }
+
+                h1{
+                    position: absolute;
+                    top: -40px;
+                    width: 400px;
+                }
+                
+            }
+        }
+    }
+}

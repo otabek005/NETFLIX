@@ -510,4 +510,123 @@ footer .container span {
 }
 #singin .container .singin p:nth-child(5) a {
   color: blue;
+}
+
+#header {
+  height: 200px;
+  padding: 35px;
+}
+#header nav .home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header nav .home-header .home-head-left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+#header nav .home-header .home-head-left ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#header nav .home-header .home-head-left ul li a {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 18px;
+  color: #fff;
+}
+#header nav .home-header .home-head-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#header nav .home-header .home-head-right img {
+  cursor: pointer;
+}
+
+#listkino .container .kinolist-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+#listkino .container .kinolist-wrapper .card-kino {
+  width: 340px;
+  height: 222px;
+  color: white;
+  position: relative;
+  margin-bottom: 35px;
+}
+#listkino .container .kinolist-wrapper .card-kino img {
+  width: 340px;
+  height: 192px;
+  object-fit: cover;
+  cursor: pointer;
+}
+#listkino .container .kinolist-wrapper .card-kino h1 {
+  position: absolute;
+  top: -40px;
+  width: 400px;
+}
+
+#addvideo .container h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 33px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+#addvideo .container form {
+  display: none;
+}
+#addvideo .container form label input {
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-family: var(--font-family);
+}
+#addvideo .container form button {
+  height: 65px;
+}
+#addvideo .container #yourvideos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 19px;
+  margin-bottom: 25px;
+}
+#addvideo .container #yourvideos .myv {
+  width: 340px;
+  height: 222px;
+  color: white;
+  margin-bottom: 25px;
+}
+#addvideo .container #yourvideos .myv h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 23px;
+  color: #fff;
+}
+#addvideo .container #yourvideos .myv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+#addvideo .container button {
+  margin-right: 10px;
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  width: 162px;
+  height: 48px;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 18px;
+  color: #fff;
+  background: #e50914;
+  cursor: pointer;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
